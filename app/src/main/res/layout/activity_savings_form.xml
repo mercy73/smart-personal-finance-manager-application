@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="26dp"
+    tools:context=".SavingsForm">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/save"
+        android:hint="Saving Form"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/savings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter savings amount"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"
+        android:padding="20dp" />
+    <EditText
+        android:id="@+id/goal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Savings goal (Optional)"
+        android:inputType="text"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add a note (Optional)"
+        android:inputType="text"
+        android:padding="12dp" />
+
+
+    <Button
+        android:id="@+id/saveSavings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Savings"
+        android:layout_marginTop="24dp"
+        android:padding="12dp" />
+
+</LinearLayout>

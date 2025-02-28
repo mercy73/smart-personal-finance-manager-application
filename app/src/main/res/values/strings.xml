@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">smart1
+    </string>
+    <string-array name="expense_categories">
+        <item>Select Category</item>
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Entertainment</item>
+        <item>Utilities</item>
+        <item>Other</item>
+    </string-array>
+</resources>
