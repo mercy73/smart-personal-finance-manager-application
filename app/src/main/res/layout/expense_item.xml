@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@android:color/darker_gray"
+    android:layout_marginBottom="8dp">
+
+    <!-- Expense Amount -->
+    <TextView
+        android:id="@+id/expense_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ksh 0.00"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:padding="8dp"
+        android:textStyle="bold" />
+
+    <!-- Expense Category -->
+    <TextView
+        android:id="@+id/expense_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:padding="8dp" />
+
+    <!-- Expense Note -->
+    <TextView
+        android:id="@+id/expense_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:padding="8dp" />
+
+    <!-- Buttons Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingTop="8dp">
+
+        <!-- Delete Button -->
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:textColor="@android:color/white"
+            android:padding="8dp"
+            android:layout_marginEnd="8dp"/>
+
+        <!-- Transfer to Savings Button -->
+        <Button
+            android:id="@+id/btn_transfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transfer"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>

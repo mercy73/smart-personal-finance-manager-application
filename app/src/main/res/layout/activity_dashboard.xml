@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    tools:context=".dashboard">
+
+    <TextView
+        android:id="@+id/ttlIncome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Income:ksh 0"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/ttlExpenses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Expenses:ksh 0"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/ttlSaving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Savings:ksh0"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Balance:ksh 0"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
